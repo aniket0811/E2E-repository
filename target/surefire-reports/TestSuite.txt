@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 5, Time elapsed: 86.664 s <<< FAILURE! - in TestSuite
+E2EFramework.HomePage.initialize  Time elapsed: 83.02 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: chrome not reachable
+Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
+System info: host: 'SANKET-PC', ip: '192.168.0.113', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {browserName: chrome}}]
+Capabilities {}
+	at E2EFramework.HomePage.initialize(HomePage.java:28)
+
+E2EFramework.ValidatePage.initialize  Time elapsed: 83.022 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: chrome not reachable
+Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
+System info: host: 'SANKET-PC', ip: '192.168.0.113', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {desiredCapabilities=Capabilities {browserName: chrome}}]
+Capabilities {}
+	at E2EFramework.ValidatePage.initialize(ValidatePage.java:28)
+
